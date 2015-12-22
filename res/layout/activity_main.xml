@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/my_btn"
+    tools:context="com.example.myrailwaynotify.MainActivity" >
+   
+    <Button
+        android:id="@+id/startService"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/my_btn"
+        android:text="開啟提醒" />
+
+    <Button
+        android:id="@+id/endService"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_btn"
+        android:text="關掉提醒" />
+
+    <TextView
+        android:id="@+id/fromTo"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="起站 驛站"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <ListView
+       android:id="@+id/listView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</LinearLayout>

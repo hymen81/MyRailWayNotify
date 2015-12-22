@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myRailWayNotify</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#8B8B83</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="ButtonText2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FA8072</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#CD2626</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="ProgressBar" parent="@style/android:Theme.Panel">
+     
+    </style>
+
+</resources>
